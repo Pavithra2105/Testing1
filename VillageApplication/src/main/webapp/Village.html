@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="Village.jsp">
+	<h3>: VILLAGE DETAILS :</h3>
+	 Village Name:<input type="text" name="vlgname" /><br/>
+     Village Taluk:<input type="text" name="vlgtaluk" /><br/>
+     District:<input type="text" name="district" /><br/>
+     State :<input type="text" name="state"/> <br>
+     Village Population :<input type="number" name="population"/> <br>
+     Number of Village Adults :<input type="number" name="adult"/> <br>
+     In Village, Number of Peoples Educated till 10th  :<input type="number" name="tenedu"/> <br>
+     In Village, Number of Peoples Educated till Degree  :<input type="number" name="degreeedu"/> <br>
+     Drinking water facility :<input type="text" name="water"/> <br>
+     
+     Electricity Facility : <br>
+     <input type="radio" id="yes" name="electricty" value="yes">
+     <label for="yes">Yes</label>
+     <input type="radio" id="no" name="electricty" value="no">
+     <label for="no">No</label><br>
+	
+	 Internet Facility :<br>
+	 <input type="radio" id="yes" name="internet" value="yes">
+     <label for="yes">Yes</label>
+     <input type="radio" id="no" name="internet" value="no">
+     <label for="no">No</label><br>
+	  
+     Hospitals Facility :<br>
+     <input type="radio" id="yes" name="hospital" value="yes">
+     <label for="yes">Yes</label>
+     <input type="radio" id="no" name="hospital" value="no">
+     <label for="no">No</label><br>
+
+	 Village School Whith in 5km or not ? :<br>
+     <input type="radio" id="yes" name="school" value="yes">
+     <label for="yes">Yes</label>
+     <input type="radio" id="no" name="school" value="no">
+     <label for="no">No</label><br>
+
+	Number of Formers in a Village : <input type="text" name="formers"/> <br>
+	Occupation of People in Village :<input type="text" name="occupation"/> <br>
+	
+	<label for="roadlight">Proper Road and Street Light Facility :</label>
+    <select name="roadlight" id="roadlight">
+    <option value="no-road">No-Road Facility</option>
+    <option value="no-light">No-Light Facility</option>
+    <option value="no">No Facility</option>
+    <option value="yes">Having both Facility</option> 
+    </select><br>
+    
+    <label for="postbank">Post Office and Banks available or not ? :</label>
+    <select name="postbank" id="postbank">
+    <option value="no-postoffice">No-PostOffice</option>
+    <option value="no-bank">No-Bank</option>
+    <option value="no">No Facility</option>
+    <option value="yes">Having both Facility</option> 
+    </select><br>
+	
+	MLA Name : <input type="text" name="mla"/> <br>
+	MP Name : <input type="text" name="mp"/> <br>
+	
+    Polio and other vaccination :<br>
+    <input type="radio" id="yes" name="polio" value="yes">
+    <label for="yes">Yes</label>
+    <input type="radio" id="no" name="polio" value="no">
+    <label for="no">No</label><br>
+
+	Having any Business Opportunity form Government ? <br>
+	<input type="radio" id="yes" name="business" value="yes">
+    <label for="yes">Yes</label>
+    <input type="radio" id="no" name="business" value="no">
+    <label for="no">No</label><br>
+     
+     Land Type around the Village :<br>
+     Eg: Farming ,Mining,Forest,Water source,Wind Source etc. <br>
+     <input type="text" name="landtype"/> <br>
+     
+     Bus and Transport Facility ? :<br>
+     <input type="radio" id="yes" name="transport" value="yes">
+    <label for="yes">Yes</label>
+    <input type="radio" id="no" name="transport" value="no">
+    <label for="no">No</label><br>
+
+	Village Map , Village Google Map Location :<br>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15243983.007440727!2d81.914063!3d21.125498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1648973288005!5m2!1sen!2sin" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+	 
+	 Major Town Nearest to the Village ? : <input type="text" name="town"/> <br>
+	 
+	 <input type="submit" value="Submit" />
+	</form>
+
+</body>
+</html>
